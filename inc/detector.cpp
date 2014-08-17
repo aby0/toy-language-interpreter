@@ -1,4 +1,5 @@
 #include "detector.h"
+#include <iostream>
 
 block * detector::get(string tok) {
 	block * b = NULL;
